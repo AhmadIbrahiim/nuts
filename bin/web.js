@@ -18,7 +18,6 @@ if (process.env.ANALYTICS_TOKEN) {
   analytics = new Analytics(process.env.ANALYTICS_TOKEN);
 }
 
-console.log(process.env);
 var myNuts = nuts.Nuts({
   repository: process.env.GITHUB_REPO,
   token: process.env.GITHUB_TOKEN,
